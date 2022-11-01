@@ -1,5 +1,8 @@
 function evenOrOdd(n) {
-    return "";
+    if (n%2 == 0) {
+    return "even";
+}else {
+    return "odd";
 }
 
 function greeting(name) {
