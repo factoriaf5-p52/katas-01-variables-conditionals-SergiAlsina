@@ -9,12 +9,12 @@ describe('Las variables en Javascript', () => {
   })
   it('pueden contener números', () => {
     // Añade la línea que falta
-    const b = 14.64
+    const b = 14.64;
     expect(b).to.equal(14.64);
   })
   it('pueden contener booleanos', () => {
     // Añade la línea que falta
-    const c = false
+    const c = false;
     expect(c).to.equal(false);
   })
 })
@@ -23,14 +23,14 @@ describe('Comparaciones en Javascript', () => {
     it("usando ===", () => {
         const number = 20;
         //completa la asignación usando number y el comparador ===
-        const expresion = false
+        const expresion = number === 21;
         expect(expresion).to.equal(false)
     })
 
     it("usando !==", () => {
         const language = "Javascript";
         //completa la asignación usando language y el comparador !==
-        const expresion = false
+        const expresion = language !== "Javascript";
         expect(expresion).to.equal(false)
     })
 })
